@@ -33,11 +33,6 @@ The script will now be active and running in the background.
 - You can schedule the script to run at login for more control  
 - Or just double-click the script manually whenever needed
 
-## 📄 Files Included
-
-- `Arrows_Threshold_Optimized.ahk` – The main script
-- `Guide.txt` – Step-by-step setup and usage guide
-
 ---
 
 Script created and documented with help from ChatGPT.
