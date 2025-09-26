@@ -1,25 +1,50 @@
-# Arrows_Threshold_Optimized.ahk
+# Arrows_Threshold_Optimized.ahk & Karabiner Script
 
-A lightweight AutoHotkey script that remaps Alt + j/i/k/l keys into enhanced arrow key functions, including support for word-based navigation and Home/End key emulation. Useful for keyboard-centric workflows or laptop users without dedicated navigation keys.
+This repository contains two scripts that provide enhanced arrow key functionality on different platforms:
 
-## 🔧 Features
+1. **Windows:** `Arrows_Threshold_Optimized.ahk` – AutoHotkey script for Windows  
+2. **macOS:** Karabiner-Elements script – remaps Option + j/i/k/l keys into arrow keys, word-based navigation, and line start/end jumps
 
-- `Alt + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)
-- `Alt + Shift + j/i/k/l` → Select by character
-- `Alt + Ctrl + j/l` → Move by word
-- `Alt + Shift + Ctrl + j/l` → Select by word
-- `Alt + Shift + Ctrl + i` → Emulates Home key
-- `Alt + Shift + Ctrl + k` → Emulates End key
+Both scripts are designed for keyboard-centric workflows or laptop users without dedicated navigation keys.
 
-## 📥 Download & Installation
+---
 
-1. Go to [AutoHotkey.com](https://www.autohotkey.com/)
-2. Download the **AutoHotkey 1.1** installer (recommended) or the latest version
-3. Install AutoHotkey on your PC
-4. Download this repository or copy the script file: `Arrows_Threshold_Optimized.ahk`
-5. Double-click the `.ahk` file to run the script
+## 🔧 Features (Windows AutoHotkey)
 
-The script will now be active and running in the background.
+- `Alt + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
+- `Alt + Shift + j/i/k/l` → Select by character  
+- `Alt + Ctrl + j/l` → Move by word  
+- `Alt + Shift + Ctrl + j/l` → Select by word  
+- `Alt + Shift + Ctrl + i` → Emulates Home key  
+- `Alt + Shift + Ctrl + k` → Emulates End key  
+
+## 🔧 Features (macOS Karabiner-Elements)
+
+- `Option + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
+- `Option + Control + j/l` → Move by word  
+- `Option + Control + i/k` → Jump to start/end of line  
+- Original Option shortcuts are overridden to prevent conflicts  
+
+---
+
+## 📥 Download & Installation (Windows)
+
+1. Go to [AutoHotkey.com](https://www.autohotkey.com/)  
+2. Download **AutoHotkey 1.1** installer (recommended) or the latest version  
+3. Install AutoHotkey on your PC  
+4. Download this repository or copy the script file: `Arrows_Threshold_Optimized.ahk`  
+5. Double-click the `.ahk` file to run the script  
+
+---
+
+## 📥 Download & Installation (macOS)
+
+1. Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/)  
+2. Copy the JSON script file into `~/.config/karabiner/assets/complex_modifications/`  
+3. Open Karabiner-Elements → Complex Modifications → Add Rule → Enable the script  
+4. Test the Option + j/i/k/l and Control + Option combinations  
+
+---
 
 ## 🚀 Auto-Start on Windows Boot
 
