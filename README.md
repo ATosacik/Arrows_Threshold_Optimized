@@ -23,9 +23,12 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 ## 🔧 Features (macOS Karabiner-Elements - `.json`)
 
 - `Option + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
+- `Option + Shift + j/i/k/l` → Select by character  
 - `Option + Control + j/l` → Move by word  
+- `Option + Control + Shift + j/l` → Select by word  
 - `Option + Control + i/k` → Jump to start/end of line  
-- Original Option shortcuts are overridden to prevent conflicts  
+- `Option + Control + Shift + i/k` → Select to start/end of line  
+- Original Option shortcuts are overridden to prevent conflicts 
 
 ---
 
