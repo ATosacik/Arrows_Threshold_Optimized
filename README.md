@@ -1,15 +1,15 @@
-# Arrows_Threshold_Optimized.ahk & Karabiner Script
+# Arrows_Threshold_Optimized
 
-This repository contains two scripts that provide enhanced arrow key functionality on different platforms:
+This repository contains two scripts with the same base name `Arrows_Threshold_Optimized`, one for **Windows** and one for **macOS**, that provide enhanced arrow key functionality:
 
-1. **Windows:** `Arrows_Threshold_Optimized.ahk` – AutoHotkey script for Windows  
-2. **macOS:** Karabiner-Elements script – remaps Option + j/i/k/l keys into arrow keys, word-based navigation, and line start/end jumps
+- **Windows:** `Arrows_Threshold_Optimized.ahk` – AutoHotkey script  
+- **macOS:** `Arrows_Threshold_Optimized.json` – Karabiner-Elements script  
 
 Both scripts are designed for keyboard-centric workflows or laptop users without dedicated navigation keys.
 
 ---
 
-## 🔧 Features (Windows AutoHotkey)
+## 🔧 Features (Windows AutoHotkey - `.ahk`)
 
 - `Alt + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
 - `Alt + Shift + j/i/k/l` → Select by character  
@@ -18,7 +18,9 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 - `Alt + Shift + Ctrl + i` → Emulates Home key  
 - `Alt + Shift + Ctrl + k` → Emulates End key  
 
-## 🔧 Features (macOS Karabiner-Elements)
+---
+
+## 🔧 Features (macOS Karabiner-Elements - `.json`)
 
 - `Option + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
 - `Option + Control + j/l` → Move by word  
@@ -32,7 +34,7 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 1. Go to [AutoHotkey.com](https://www.autohotkey.com/)  
 2. Download **AutoHotkey 1.1** installer (recommended) or the latest version  
 3. Install AutoHotkey on your PC  
-4. Download this repository or copy the script file: `Arrows_Threshold_Optimized.ahk`  
+4. Download this repository or copy `Arrows_Threshold_Optimized.ahk`  
 5. Double-click the `.ahk` file to run the script  
 
 ---
@@ -40,7 +42,7 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 ## 📥 Download & Installation (macOS)
 
 1. Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/)  
-2. Copy the JSON script file into `~/.config/karabiner/assets/complex_modifications/`  
+2. Copy `Arrows_Threshold_Optimized.json` into `~/.config/karabiner/assets/complex_modifications/`  
 3. Open Karabiner-Elements → Complex Modifications → Add Rule → Enable the script  
 4. Test the Option + j/i/k/l and Control + Option combinations  
 
@@ -56,7 +58,7 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 
 ### Option B: Use Task Scheduler *(optional advanced method)*
 - You can schedule the script to run at login for more control  
-- Or just double-click the script manually whenever needed
+- Or just double-click the script manually whenever needed  
 
 ---
 
