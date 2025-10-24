@@ -64,4 +64,4 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 
 ---
 
-Arrows Threshold Optimized - ATo :))
+Arrows Threshold Optimized - ATO :))
