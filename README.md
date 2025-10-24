@@ -63,3 +63,5 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 - Or just double-click the script manually whenever needed  
 
 ---
+
+# Arrows_Threshold_Optimized - ATo :))
