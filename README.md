@@ -11,25 +11,24 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 
 ## 🔧 Features (Windows AutoHotkey - `.ahk`)
 
-- `Alt + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
-- `Alt + Shift + j/i/k/l` → Select by character  
-- `Alt + Ctrl + j/l` → Move by word  
-- `Alt + Shift + Ctrl + j/l` → Select by word  
-- `Alt + Shift + Ctrl + i` → Emulates Home key  
-- `Alt + Shift + Ctrl + k` → Emulates End key  
+- <kbd>Alt</kbd> + <kbd>j</kbd>/<kbd>i</kbd>/<kbd>k</kbd>/<kbd>l</kbd> → Acts as arrow keys (← ↑ ↓ →)  
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>j</kbd>/<kbd>i</kbd>/<kbd>k</kbd>/<kbd>l</kbd> → Select by character  
+- <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>j</kbd>/<kbd>l</kbd> → Move by word  
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>j</kbd>/<kbd>l</kbd> → Select by word  
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>i</kbd> → Emulates Home key  
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd> → Emulates End key  
 
 ---
 
 ## 🔧 Features (macOS Karabiner-Elements - `.json`)
 
-- `Option + j/i/k/l` → Acts as arrow keys (← ↑ ↓ →)  
-- `Option + Shift + j/i/k/l` → Select by character  
-- `Option + Control + j/l` → Move by word  
-- `Option + Control + Shift + j/l` → Select by word  
-- `Option + Control + i/k` → Jump to start/end of line  
-- `Option + Control + Shift + i/k` → Select to start/end of line  
-- Original Option shortcuts are overridden to prevent conflicts 
-
+- <kbd>Option</kbd> + <kbd>j</kbd>/<kbd>i</kbd>/<kbd>k</kbd>/<kbd>l</kbd> → Acts as arrow keys (← ↑ ↓ →)  
+- <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>j</kbd>/<kbd>i</kbd>/<kbd>k</kbd>/<kbd>l</kbd> → Select by character  
+- <kbd>Option</kbd> + <kbd>Control</kbd> + <kbd>j</kbd>/<kbd>l</kbd> → Move by word  
+- <kbd>Option</kbd> + <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>j</kbd>/<kbd>l</kbd> → Select by word  
+- <kbd>Option</kbd> + <kbd>Control</kbd> + <kbd>i</kbd>/<kbd>k</kbd> → Jump to start/end of line  
+- <kbd>Option</kbd> + <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>i</kbd>/<kbd>k</kbd> → Select to start/end of line  
+- Original Option shortcuts are overridden to prevent conflicts
 ---
 
 ## 📥 Download & Installation (Windows)
@@ -55,7 +54,7 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 
 ### Option A: Use Startup Folder
 1. Right-click the `.ahk` file → Create shortcut  
-2. Press `Win + R`, type `shell:startup`, and hit Enter  
+2. Press <kbd>Win</kbd> + <kbd>R</kbd>`, type `shell:startup`, and hit Enter  
 3. Move the shortcut into the Startup folder  
 4. The script will launch automatically every time you log in
 
