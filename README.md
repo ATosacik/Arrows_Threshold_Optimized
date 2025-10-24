@@ -54,7 +54,7 @@ Both scripts are designed for keyboard-centric workflows or laptop users without
 
 ### Option A: Use Startup Folder
 1. Right-click the `.ahk` file → Create shortcut  
-2. Press <kbd>Win</kbd> + <kbd>R</kbd>`, type `shell:startup`, and hit Enter  
+2. Press <kbd>Win</kbd> + <kbd>R</kbd>, type `shell:startup`, and hit Enter  
 3. Move the shortcut into the Startup folder  
 4. The script will launch automatically every time you log in
 
